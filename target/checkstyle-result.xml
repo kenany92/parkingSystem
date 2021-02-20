@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="8.40">
-<file name="C:\Users\Boubo\OneDrive\Bureau\developpement\openclassrooms\sealesforce\P05_boudjellal_nabil\GitProject\parkingSystem-master\parkingSystem\src\main\java\com\parkit\parkingsystem\App.java">
+<file name="C:\Users\Boubo\OneDrive\Bureau\developpement\openclassrooms\sealesforce\P05_boudjellal_nabil\code\parkingSystem\src\main\java\com\parkit\parkingsystem\App.java">
 <error line="6" severity="info" message="Empty line should be followed by &lt;p&gt; tag on the next line." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocParagraphCheck"/>
 <error line="6" severity="info" message="First sentence of Javadoc is missing an ending period." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
 <error line="9" column="1" severity="info" message="&apos;CLASS_DEF&apos; should be separated from previous statement." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
@@ -15,7 +15,7 @@
 <error line="17" column="9" severity="info" message="&apos;method def&apos; child has incorrect indentation level 8, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 <error line="18" column="5" severity="info" message="&apos;method def rcurly&apos; has incorrect indentation level 4, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 </file>
-<file name="C:\Users\Boubo\OneDrive\Bureau\developpement\openclassrooms\sealesforce\P05_boudjellal_nabil\GitProject\parkingSystem-master\parkingSystem\src\main\java\com\parkit\parkingsystem\config\DataBaseConfig.java">
+<file name="C:\Users\Boubo\OneDrive\Bureau\developpement\openclassrooms\sealesforce\P05_boudjellal_nabil\code\parkingSystem\src\main\java\com\parkit\parkingsystem\config\DataBaseConfig.java">
 <error line="6" column="1" severity="info" message="Extra separation in import group before &apos;java.io.IOException&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
 <error line="6" column="1" severity="info" message="Wrong lexicographical order for &apos;java.io.IOException&apos; import. Should be before &apos;org.apache.logging.log4j.Logger&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
 <error line="9" column="1" severity="info" message="Extra separation in import group before &apos;java.io.InputStream&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
@@ -104,7 +104,7 @@
 <error line="68" column="9" severity="info" message="&apos;if rcurly&apos; has incorrect indentation level 8, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 <error line="69" column="5" severity="info" message="&apos;method def rcurly&apos; has incorrect indentation level 4, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 </file>
-<file name="C:\Users\Boubo\OneDrive\Bureau\developpement\openclassrooms\sealesforce\P05_boudjellal_nabil\GitProject\parkingSystem-master\parkingSystem\src\main\java\com\parkit\parkingsystem\constants\DBConstants.java">
+<file name="C:\Users\Boubo\OneDrive\Bureau\developpement\openclassrooms\sealesforce\P05_boudjellal_nabil\code\parkingSystem\src\main\java\com\parkit\parkingsystem\constants\DBConstants.java">
 <error line="3" severity="info" message="Empty line should be followed by &lt;p&gt; tag on the next line." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocParagraphCheck"/>
 <error line="3" severity="info" message="First sentence of Javadoc is missing an ending period." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
 <error line="6" column="14" severity="info" message="Abbreviation in name &apos;DBConstants&apos; must contain no more than &apos;1&apos; consecutive capital letters." source="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck"/>
@@ -123,7 +123,7 @@
 <error line="17" severity="info" message="Line is longer than 100 characters (found 151)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
 <error line="17" column="5" severity="info" message="&apos;member def modifier&apos; has incorrect indentation level 4, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 </file>
-<file name="C:\Users\Boubo\OneDrive\Bureau\developpement\openclassrooms\sealesforce\P05_boudjellal_nabil\GitProject\parkingSystem-master\parkingSystem\src\main\java\com\parkit\parkingsystem\constants\Fare.java">
+<file name="C:\Users\Boubo\OneDrive\Bureau\developpement\openclassrooms\sealesforce\P05_boudjellal_nabil\code\parkingSystem\src\main\java\com\parkit\parkingsystem\constants\Fare.java">
 <error line="2" severity="info" message="Empty line should be followed by &lt;p&gt; tag on the next line." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocParagraphCheck"/>
 <error line="2" severity="info" message="First sentence of Javadoc is missing an ending period." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
 <error line="2" column="1" severity="info" message="&apos;/*&apos; should be separated from previous statement." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
@@ -135,13 +135,13 @@
 <error line="14" column="5" severity="info" message="&apos;member def modifier&apos; has incorrect indentation level 4, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 <error line="14" column="82" severity="info" message="&apos;;&apos; is preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.NoWhitespaceBeforeCheck"/>
 </file>
-<file name="C:\Users\Boubo\OneDrive\Bureau\developpement\openclassrooms\sealesforce\P05_boudjellal_nabil\GitProject\parkingSystem-master\parkingSystem\src\main\java\com\parkit\parkingsystem\constants\ParkingType.java">
+<file name="C:\Users\Boubo\OneDrive\Bureau\developpement\openclassrooms\sealesforce\P05_boudjellal_nabil\code\parkingSystem\src\main\java\com\parkit\parkingsystem\constants\ParkingType.java">
 <error line="2" severity="info" message="Empty line should be followed by &lt;p&gt; tag on the next line." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocParagraphCheck"/>
 <error line="2" severity="info" message="First sentence of Javadoc is missing an ending period." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
 <error line="2" column="1" severity="info" message="&apos;/*&apos; should be separated from previous statement." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
 <error line="5" column="1" severity="info" message="&apos;ENUM_DEF&apos; should be separated from previous statement." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
 </file>
-<file name="C:\Users\Boubo\OneDrive\Bureau\developpement\openclassrooms\sealesforce\P05_boudjellal_nabil\GitProject\parkingSystem-master\parkingSystem\src\main\java\com\parkit\parkingsystem\dao\ParkingSpotDAO.java">
+<file name="C:\Users\Boubo\OneDrive\Bureau\developpement\openclassrooms\sealesforce\P05_boudjellal_nabil\code\parkingSystem\src\main\java\com\parkit\parkingsystem\dao\ParkingSpotDAO.java">
 <error line="10" column="1" severity="info" message="Extra separation in import group before &apos;java.sql.Connection&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
 <error line="10" column="1" severity="info" message="Wrong lexicographical order for &apos;java.sql.Connection&apos; import. Should be before &apos;org.apache.logging.log4j.Logger&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
 <error line="11" column="1" severity="info" message="Wrong lexicographical order for &apos;java.sql.PreparedStatement&apos; import. Should be before &apos;org.apache.logging.log4j.Logger&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
@@ -217,7 +217,7 @@
 <error line="68" column="9" severity="info" message="&apos;finally rcurly&apos; has incorrect indentation level 8, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 <error line="69" column="5" severity="info" message="&apos;method def rcurly&apos; has incorrect indentation level 4, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 </file>
-<file name="C:\Users\Boubo\OneDrive\Bureau\developpement\openclassrooms\sealesforce\P05_boudjellal_nabil\GitProject\parkingSystem-master\parkingSystem\src\main\java\com\parkit\parkingsystem\dao\TicketDAO.java">
+<file name="C:\Users\Boubo\OneDrive\Bureau\developpement\openclassrooms\sealesforce\P05_boudjellal_nabil\code\parkingSystem\src\main\java\com\parkit\parkingsystem\dao\TicketDAO.java">
 <error line="11" column="1" severity="info" message="Extra separation in import group before &apos;java.sql.Connection&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
 <error line="11" column="1" severity="info" message="Wrong lexicographical order for &apos;java.sql.Connection&apos; import. Should be before &apos;org.apache.logging.log4j.Logger&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
 <error line="12" column="1" severity="info" message="Wrong lexicographical order for &apos;java.sql.PreparedStatement&apos; import. Should be before &apos;org.apache.logging.log4j.Logger&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
@@ -449,7 +449,7 @@
 <error line="186" column="9" severity="info" message="&apos;method def&apos; child has incorrect indentation level 8, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 <error line="187" column="5" severity="info" message="&apos;method def rcurly&apos; has incorrect indentation level 4, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 </file>
-<file name="C:\Users\Boubo\OneDrive\Bureau\developpement\openclassrooms\sealesforce\P05_boudjellal_nabil\GitProject\parkingSystem-master\parkingSystem\src\main\java\com\parkit\parkingsystem\model\ParkingSpot.java">
+<file name="C:\Users\Boubo\OneDrive\Bureau\developpement\openclassrooms\sealesforce\P05_boudjellal_nabil\code\parkingSystem\src\main\java\com\parkit\parkingsystem\model\ParkingSpot.java">
 <error line="5" severity="info" message="Empty line should be followed by &lt;p&gt; tag on the next line." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocParagraphCheck"/>
 <error line="5" severity="info" message="First sentence of Javadoc is missing an ending period." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
 <error line="9" column="5" severity="info" message="&apos;member def modifier&apos; has incorrect indentation level 4, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
@@ -505,7 +505,7 @@
 <error line="67" column="9" severity="info" message="&apos;method def&apos; child has incorrect indentation level 8, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 <error line="68" column="5" severity="info" message="&apos;method def rcurly&apos; has incorrect indentation level 4, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 </file>
-<file name="C:\Users\Boubo\OneDrive\Bureau\developpement\openclassrooms\sealesforce\P05_boudjellal_nabil\GitProject\parkingSystem-master\parkingSystem\src\main\java\com\parkit\parkingsystem\model\Ticket.java">
+<file name="C:\Users\Boubo\OneDrive\Bureau\developpement\openclassrooms\sealesforce\P05_boudjellal_nabil\code\parkingSystem\src\main\java\com\parkit\parkingsystem\model\Ticket.java">
 <error line="5" severity="info" message="Empty line should be followed by &lt;p&gt; tag on the next line." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocParagraphCheck"/>
 <error line="5" severity="info" message="First sentence of Javadoc is missing an ending period." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
 <error line="9" column="5" severity="info" message="&apos;member def modifier&apos; has incorrect indentation level 4, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
@@ -608,7 +608,7 @@
 <error line="102" column="11" severity="info" message="&apos;else&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
 <error line="103" column="5" severity="info" message="&apos;method def rcurly&apos; has incorrect indentation level 4, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 </file>
-<file name="C:\Users\Boubo\OneDrive\Bureau\developpement\openclassrooms\sealesforce\P05_boudjellal_nabil\GitProject\parkingSystem-master\parkingSystem\src\main\java\com\parkit\parkingsystem\service\FareCalculatorService.java">
+<file name="C:\Users\Boubo\OneDrive\Bureau\developpement\openclassrooms\sealesforce\P05_boudjellal_nabil\code\parkingSystem\src\main\java\com\parkit\parkingsystem\service\FareCalculatorService.java">
 <error line="5" column="1" severity="info" message="Wrong lexicographical order for &apos;com.parkit.parkingsystem.dao.TicketDAO&apos; import. Should be before &apos;com.parkit.parkingsystem.model.Ticket&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
 <error line="7" column="1" severity="info" message="Extra separation in import group before &apos;java.time.Duration&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
 <error line="11" severity="info" message="Empty line should be followed by &lt;p&gt; tag on the next line." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocParagraphCheck"/>
@@ -690,7 +690,7 @@
 <error line="71" column="9" severity="info" message="&apos;method def&apos; child has incorrect indentation level 8, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 <error line="72" column="5" severity="info" message="&apos;method def rcurly&apos; has incorrect indentation level 4, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 </file>
-<file name="C:\Users\Boubo\OneDrive\Bureau\developpement\openclassrooms\sealesforce\P05_boudjellal_nabil\GitProject\parkingSystem-master\parkingSystem\src\main\java\com\parkit\parkingsystem\service\InteractiveShell.java">
+<file name="C:\Users\Boubo\OneDrive\Bureau\developpement\openclassrooms\sealesforce\P05_boudjellal_nabil\code\parkingSystem\src\main\java\com\parkit\parkingsystem\service\InteractiveShell.java">
 <error line="9" severity="info" message="Empty line should be followed by &lt;p&gt; tag on the next line." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocParagraphCheck"/>
 <error line="9" severity="info" message="First sentence of Javadoc is missing an ending period." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
 <error line="14" column="5" severity="info" message="&apos;member def modifier&apos; has incorrect indentation level 4, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
@@ -745,7 +745,7 @@
 <error line="58" column="9" severity="info" message="&apos;method def&apos; child has incorrect indentation level 8, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 <error line="59" column="5" severity="info" message="&apos;method def rcurly&apos; has incorrect indentation level 4, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 </file>
-<file name="C:\Users\Boubo\OneDrive\Bureau\developpement\openclassrooms\sealesforce\P05_boudjellal_nabil\GitProject\parkingSystem-master\parkingSystem\src\main\java\com\parkit\parkingsystem\service\ParkingService.java">
+<file name="C:\Users\Boubo\OneDrive\Bureau\developpement\openclassrooms\sealesforce\P05_boudjellal_nabil\code\parkingSystem\src\main\java\com\parkit\parkingsystem\service\ParkingService.java">
 <error line="13" column="1" severity="info" message="Extra separation in import group before &apos;java.util.Date&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
 <error line="13" column="1" severity="info" message="Wrong lexicographical order for &apos;java.util.Date&apos; import. Should be before &apos;org.apache.logging.log4j.Logger&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
 <error line="15" severity="info" message="Empty line should be followed by &lt;p&gt; tag on the next line." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocParagraphCheck"/>
@@ -936,7 +936,7 @@
 <error line="153" column="9" severity="info" message="&apos;catch rcurly&apos; has incorrect indentation level 8, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 <error line="154" column="5" severity="info" message="&apos;method def rcurly&apos; has incorrect indentation level 4, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 </file>
-<file name="C:\Users\Boubo\OneDrive\Bureau\developpement\openclassrooms\sealesforce\P05_boudjellal_nabil\GitProject\parkingSystem-master\parkingSystem\src\main\java\com\parkit\parkingsystem\util\InputReaderUtil.java">
+<file name="C:\Users\Boubo\OneDrive\Bureau\developpement\openclassrooms\sealesforce\P05_boudjellal_nabil\code\parkingSystem\src\main\java\com\parkit\parkingsystem\util\InputReaderUtil.java">
 <error line="6" column="1" severity="info" message="Extra separation in import group before &apos;java.util.Scanner&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
 <error line="6" column="1" severity="info" message="Wrong lexicographical order for &apos;java.util.Scanner&apos; import. Should be before &apos;org.apache.logging.log4j.Logger&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
 <error line="8" severity="info" message="First sentence of Javadoc is missing an ending period." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
@@ -986,8 +986,8 @@
 <error line="44" column="9" severity="info" message="&apos;catch rcurly&apos; has incorrect indentation level 8, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 <error line="45" column="5" severity="info" message="&apos;method def rcurly&apos; has incorrect indentation level 4, expected level should be 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 </file>
-<file name="C:\Users\Boubo\OneDrive\Bureau\developpement\openclassrooms\sealesforce\P05_boudjellal_nabil\GitProject\parkingSystem-master\parkingSystem\src\main\resources\conf.properties">
+<file name="C:\Users\Boubo\OneDrive\Bureau\developpement\openclassrooms\sealesforce\P05_boudjellal_nabil\code\parkingSystem\src\main\resources\conf.properties">
 </file>
-<file name="C:\Users\Boubo\OneDrive\Bureau\developpement\openclassrooms\sealesforce\P05_boudjellal_nabil\GitProject\parkingSystem-master\parkingSystem\src\main\resources\log4j2.properties">
+<file name="C:\Users\Boubo\OneDrive\Bureau\developpement\openclassrooms\sealesforce\P05_boudjellal_nabil\code\parkingSystem\src\main\resources\log4j2.properties">
 </file>
 </checkstyle>

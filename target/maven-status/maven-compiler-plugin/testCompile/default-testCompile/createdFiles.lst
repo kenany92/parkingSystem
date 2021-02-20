@@ -5,5 +5,5 @@ com\parkit\parkingsystem\unitTests\dao\ParkingSpotDAOTest.class
 com\parkit\parkingsystem\unitTests\dao\TicketDAOTest.class
 com\parkit\parkingsystem\unitTests\modelTests\ParkingSpotTest.class
 com\parkit\parkingsystem\unitTests\service\FareCalculatorServiceTest.class
-com\parkit\parkingsystem\integration\ParkingServiceTest.class
+com\parkit\parkingsystem\integration\ParkingServiceIT.class
 com\parkit\parkingsystem\integration\config\DataBaseTestConfig.class
