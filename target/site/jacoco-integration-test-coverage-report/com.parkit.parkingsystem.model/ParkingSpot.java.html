@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="fr"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>ParkingSpot.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">parking-system</a> &gt; <a href="index.source.html" class="el_package">com.parkit.parkingsystem.model</a> &gt; <span class="el_source">ParkingSpot.java</span></div><h1>ParkingSpot.java</h1><pre class="source lang-java linenums">package com.parkit.parkingsystem.model;
+
+import com.parkit.parkingsystem.constants.ParkingType;
+
+/***
+ * this class defines the Parking Spot attributes
+ */
+public class ParkingSpot {
+    private int number;
+    private ParkingType parkingType;
+    private boolean isAvailable;
+
+<span class="fc" id="L13">    public ParkingSpot(int number, ParkingType parkingType, boolean isAvailable) {</span>
+<span class="fc" id="L14">        this.number = number;</span>
+<span class="fc" id="L15">        this.parkingType = parkingType;</span>
+<span class="fc" id="L16">        this.isAvailable = isAvailable;</span>
+<span class="fc" id="L17">    }</span>
+
+    /***
+     * Constructor
+     */
+<span class="nc" id="L22">    public ParkingSpot() {</span>
+<span class="nc" id="L23">    }</span>
+
+    /***
+     * Id getter
+     * @return Id
+     */
+    public int getId() {
+<span class="fc" id="L30">        return number;</span>
+    }
+
+    /***
+     * Id setter
+     * @param number Id
+     */
+    public void setId(int number) {
+<span class="nc" id="L38">        this.number = number;</span>
+<span class="nc" id="L39">    }</span>
+    /***
+     * ParkingType getter
+     * @return ParkingType
+     */
+    public ParkingType getParkingType() {
+<span class="fc" id="L45">        return parkingType;</span>
+    }
+
+    /***
+     * ParkingType setter
+     * @param parkingType the current parking type
+     */
+    public void setParkingType(ParkingType parkingType) {
+<span class="nc" id="L53">        this.parkingType = parkingType;</span>
+<span class="nc" id="L54">    }</span>
+    /***
+     * isAvailable getter
+     * @return isAvailable
+     */
+    public boolean isAvailable() {
+<span class="fc" id="L60">        return isAvailable;</span>
+    }
+    /***
+     * Available setter
+     * @param available true or false
+     */
+    public void setAvailable(boolean available) {
+<span class="fc" id="L67">        isAvailable = available;</span>
+<span class="fc" id="L68">    }</span>
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.5.201910111838</span></div></body></html>
